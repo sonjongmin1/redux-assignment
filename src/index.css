@@ -1,0 +1,43 @@
+button {
+  background-color: #f0d264; /* 버튼 배경색을 파란색으로 */
+  color: black; /* 버튼 글자색을 흰색으로 */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.box-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.box-center-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: skyblue;
+}
+
+.sm-box {
+  display: flex;
+}
+
+.sm-box1 {
+  margin-right: 10px;
+}
+
+.sm-box2 {
+  margin-right: 10px;
+}
+
+.bt-box {
+  margin-top: 20px;
+}
